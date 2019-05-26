@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIZIQIANG123/api.git"
+  },
+  "keywords": [
+    "SSH",
+    "PRIVATE",
+    "KEY",
+    "FILE",
+    "FORMAT",
+    "1.1"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LIZIQIANG123/api/issues"
+  },
+  "homepage": "https://github.com/LIZIQIANG123/api#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
