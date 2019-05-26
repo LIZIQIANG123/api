@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"nodemon app.js",
+    "server": "nodemon app.js",
     "start": "node app.js"
   },
   "repository": {
@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/LIZIQIANG123/api#readme",
   "dependencies": {
-    "express": "^4.17.0"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.11"
   }
 }
