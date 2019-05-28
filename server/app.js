@@ -4,9 +4,10 @@ const app=express();
 const mongoose =require("mongoose");
 const port=process.env.PORT||3000;
 const users=require('./router/api/user');
+
 const body=require("body-parser");
 app.use(body.urlencoded({extended:false}))
-app.use(body.json())
+app.use(body.json());
 app.use('/api/users',users);
 
 const db =require('./config/key').mongourl;

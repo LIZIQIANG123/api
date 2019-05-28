@@ -17,4 +17,4 @@ const userSchema=new Schema({
     }
 })
 // eslint-disable-next-line no-undef
-module.exports= User =monges.model("user",userSchema);
+module.exports= User =monges.model("users",userSchema);
