@@ -14,6 +14,10 @@ const userSchema=new Schema({
     date:{
         type:Date,
         default:Date.now
+    },
+    Identity:{
+        type:String,
+        required:true
     }
 })
 // eslint-disable-next-line no-undef
