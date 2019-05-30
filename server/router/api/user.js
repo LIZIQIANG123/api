@@ -61,7 +61,7 @@ router.post('/login',(req,res)=>{
                   })
         })
 })
-//
+//获取用户信息
 router.get('/current',passport.authenticate('jwt',{session:false}),(req,res)=>{
 res.json({
     id:req.user.id,
